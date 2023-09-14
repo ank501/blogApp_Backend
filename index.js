@@ -17,7 +17,7 @@ app.use("/blogs",blogRouter);
 app.use("/content",contentCreatorRouter)
 
 app.get("/",(req,res)=>{
-    res.send("hello")
+res.send('"/blog" : for blog routes , "/users" : for user route , "/content" : for content generation')
 })
 
 
